@@ -53,7 +53,7 @@ public class GameService {
 
     public List<Game> getAllCustomers() {
         try {
-            Thread.sleep(2000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -62,7 +62,7 @@ public class GameService {
 
     public Game getById(Integer id) {
         try {
-            Thread.sleep(2000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
